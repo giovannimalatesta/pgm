@@ -9,6 +9,7 @@ import { RedesComponent } from './components/redes/redes.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
 import { ExpComponent } from './components/exp/exp.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ExpComponent } from './components/exp/exp.component';
     RedesComponent,
     BannerComponent,
     AcercadeComponent,
-    ExpComponent
+    ExpComponent,
+    EducacionComponent
   ],
   imports: [
     BrowserModule,
